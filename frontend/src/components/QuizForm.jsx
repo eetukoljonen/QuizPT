@@ -58,7 +58,7 @@ const QuizForm = ({ setAlert, setQuiz }) => {
 
   return (
     <div style={{'marginTop': '120px', 'textAlign': 'left'}}>
-      <TextButton onClick={onClick} text='Show me an example' />
+      <TextButton onClick={onClick} text='Click this for an example.' />
       <Form onSubmit={handleSubmit}>
         <InputGroup>
           <Form.Control
